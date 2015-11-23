@@ -70,7 +70,7 @@ def main():
             for event in pygame.event.get():
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_q:
-                        sys.exit()
+                        return
                     if event.key == pygame.K_RETURN:
                         notPlaying = False
                         skyIsFalling = True
